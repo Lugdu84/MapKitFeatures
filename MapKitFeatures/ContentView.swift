@@ -50,7 +50,7 @@ struct ContentView: View {
             }
         }
         .overlay(alignment: .top, content: {
-            TextField("Search for a location...", text: $searchText)
+            TextField("Search for a location", text: $searchText)
                 .font(.subheadline)
                 .padding(12)
                 .background(.white )
